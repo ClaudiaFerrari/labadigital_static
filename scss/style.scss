@@ -1,0 +1,247 @@
+
+html body{
+
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 23px;
+	color: #fff;
+}
+
+h1{
+	display: inline-block;
+	font-size: 36px;
+	font-weight: 900;
+	color: #55ACAA;
+	line-height: 46px;
+	margin: 0px;
+	padding-top: 15px;
+}
+
+h2{
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 18px;
+	color: #55ACAA;
+	text-decoration: underline;
+	margin: 30px 0px 15px 0px;
+}
+
+.linea{
+	border-bottom: 1px solid #55ACAA;
+	width: 100px;
+	height: 1px;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: 900;
+}
+
+
+/* Primo Blocco */
+
+#presentazione{
+	position: relative;
+	width: 50%;
+	float: left;
+	background-color: #55ACAA;
+}
+
+#imgpc{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	position: relative;
+	width: 50%;
+	height: 100%;
+	background-image:url(../img/pc.png);
+	background-size: cover;
+}
+
+
+.logo{
+	padding-left: 20%;
+	padding-top: 80px;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	padding-bottom: 10px;
+}
+
+li a {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#menu{
+	padding-left: 20%;
+	padding-top: 50px
+}
+
+#homemenu a{
+	text-decoration: none;
+	font-weight: 900;
+}
+
+#homemenu a:hover{
+	text-decoration: underline;
+	font-weight: 300;
+}
+
+
+#descrizione_laba{
+	padding-left: 20%;
+	padding-top: 60px;
+	width: 65%;
+	margin: 0px;
+}
+
+/* Secondo Blocco */
+#homelabadigital_1{
+	background-color: #ABE8DA;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#scritto{
+	padding-left: 10%;
+	padding-top: 25px;
+}
+
+#scritto p{
+	width: 90%;
+	color: #55ACAA;
+}
+
+
+.testo2{
+	padding-bottom: 25px;
+}
+
+/* Terzo Blocco */
+#homelabadigital_2{
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+}
+
+#scritto2{
+	padding-left: 10%;
+	padding-top: 25px;
+}
+
+#scritto2 p{
+	color: #55ACAA;
+	width: 90%;
+}
+
+
+
+/* Footer */
+
+footer{
+	background-color: #E9EEEB;
+	height: 100%;
+}
+
+footer p{
+	color: #55ACAA;
+}
+
+
+#dati input{
+	display: block;
+	border: 0px;
+	height: 28px;
+	width: 190px;
+	margin-top: 15px;
+	margin-right: 0px;
+}
+
+
+::-webkit-input-placeholder {
+	font-family: Lato-Regular;
+	color: #55ACAA;
+	font-size: 18px;
+	text-align: right;
+	padding-right: 8px;
+}
+
+legend{
+	font-family: Lato;
+	font-size: 18px;
+	text-decoration: underline;
+	color: #55ACAA;
+	padding-top: 30px;
+}
+
+#privacy{
+	padding-left: 10%;
+	float: left;
+	position: relative;
+}
+
+#privacy p{
+	font-size: 12px;
+	padding-top: 25px;
+}
+
+#contatti{
+	text-align: right;
+	padding-right: 10%;
+	float: right;
+	position: relative;
+	width: 40%;
+}
+
+
+
+#contatti a{
+	text-decoration: none;
+	color: #55ACAA;
+}
+
+#contatti a:hover{
+	text-decoration: underline;
+}
+
+#contenutifooter{
+	display: inline-block;
+	width: 100%;
+}
+
+#preinscrizione{
+	float: left;
+	position: relative;
+	width: 40%;
+	padding-left: 10%;
+}
+
+#invio{
+	position: relative;
+	margin-top: -29px;
+	margin-left: 200px;
+}
+
+
+
+
+@import 'page-home';
+@import 'page-contatti';
+@import 'page-laba';
+@import 'page-app-design';
+@import 'page-web-design';
+@import 'page-corsi';

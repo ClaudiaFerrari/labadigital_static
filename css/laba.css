@@ -1,0 +1,262 @@
+
+html body{
+
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 23px;
+	color: #fff;
+}
+
+h1{
+	display: inline-block;
+	font-size: 36px;
+	font-weight: 900;
+	color: #55ACAA;
+	line-height: 46px;
+	margin: 0px;
+	padding-top: 15px;
+}
+
+h2{
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 18px;
+	color: #55ACAA;
+	text-decoration: underline;
+	margin: 30px 0px 15px 0px;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: 900;
+}
+
+
+/* Primo Blocco */
+
+
+#homelabadigital{
+	position: relative;
+	width: 100%;
+	height: 700px;
+	background-color: #55ACAA;
+}
+
+#presentazione{
+	position: relative;
+	width: 70%;
+	height: 100%;
+	float: left;
+	background-color: #55ACAA;
+}
+
+#imghome{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	position: relative;
+	width: 30%;
+	height: 100%;
+	background-color: #fff;
+}
+
+#imghome img{
+	width: 70%;
+	padding-top: 297px;
+	padding-left: 15%;
+}
+
+.logo{
+	padding-left: 14.3%;
+	padding-top: 80px;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	padding-bottom: 10px;
+}
+
+li a {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#menu{
+	padding-left: 14.3%;
+	padding-top: 50px
+}
+
+#homemenu a{
+	text-decoration: none;
+	font-weight: 900;
+}
+
+#homemenu a:hover{
+	text-decoration: underline;
+	font-weight: 300;
+}
+
+
+#descrizione_labahome{
+	padding-left: 14.3%;
+	padding-top: 60px;
+	width: 73%;
+	margin: 0px;
+}
+
+
+
+
+
+
+/* Footer */
+
+footer{
+	background-color: #E9EEEB;
+	height: 100%;
+}
+
+footer p{
+	color: #55ACAA;
+}
+
+
+#dati input{
+	display: block;
+	border: 0px;
+	height: 28px;
+	width: 190px;
+	margin-top: 15px;
+	margin-right: 0px;
+}
+
+
+::-webkit-input-placeholder {
+	font-family: Lato-Regular;
+	color: #55ACAA;
+	font-size: 18px;
+	text-align: right;
+	padding-right: 8px;
+}
+
+legend{
+	font-family: Lato;
+	font-size: 18px;
+	text-decoration: underline;
+	color: #55ACAA;
+	padding-top: 30px;
+}
+
+#privacy{
+	padding-left: 10%;
+	float: left;
+	position: relative;
+}
+
+#privacy p{
+	font-size: 12px;
+	padding-top: 25px;
+}
+
+#contatti{
+	text-align: right;
+	padding-right: 10%;
+	float: right;
+	position: relative;
+	width: 40%;
+}
+
+
+
+#contatti a{
+	text-decoration: none;
+	color: #55ACAA;
+}
+
+#contatti a:hover{
+	text-decoration: underline;
+}
+
+#contenutifooter{
+	display: inline-block;
+	width: 100%;
+}
+
+#preinscrizione{
+	float: left;
+	position: relative;
+	width: 40%;
+	padding-left: 10%;
+}
+
+#invio{
+	position: relative;
+	margin-top: -29px;
+	margin-left: 200px;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 768px){
+
+	#presentazione{
+	position: relative;
+	width: 100%;
+	float: left;
+	background-color: #55ACAA;
+}
+
+#imghome{
+	display: none;
+}
+
+.logo{
+	padding-left: 10%;
+	padding-top: 40px;
+}
+
+#menu{
+	padding-left: 10%;
+}
+
+#descrizione_laba{
+	padding-left: 10%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 75%;
+	margin: 0px;
+}
+
+#preinscrizione{
+	float: left;
+	position: relative;
+	width: 100%;
+	padding-left: 10%;
+}
+
+#contatti{
+	text-align: left;
+	padding-left: 10%;
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+
+}
+
+
+
+
+

@@ -1,0 +1,486 @@
+
+html body{
+
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 23px;
+	color: #fff;
+}
+
+h1{
+	display: inline-block;
+	font-size: 36px;
+	font-weight: 900;
+	color: #55ACAA;
+	line-height: 46px;
+	margin: 0px;
+	padding-top: 15px;
+}
+
+h2{
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 18px;
+	color: #55ACAA;
+	text-decoration: underline;
+	margin: 30px 0px 15px 0px;
+}
+
+h3{
+	font-family: Lato;
+	font-weight: 700;
+	font-size: 16px;
+	color: #55ACAA;
+	line-height: 23px;
+	margin: 0px;
+}
+
+.linea{
+	border-bottom: 1px solid #55ACAA;
+	width: 100px;
+	height: 1px;
+	display: inline-block;
+}
+
+
+a:hover {
+	text-decoration: none;
+	font-weight: 900;
+}
+
+
+/* Primo Blocco */
+
+
+#homelabadigital{
+	position: relative;
+	width: 100%;
+	height: 900px;
+	background-color: #55ACAA;
+}
+
+#presentazione{
+	position: relative;
+	width: 50%;
+	float: left;
+	background-color: #55ACAA;
+}
+
+#imghome{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	position: relative;
+	width: 50%;
+	height: 100%;
+	background-color: #fff;
+}
+
+#schermo img{
+	height: 90%;
+	width: 90%;
+	margin: 20px 30px 15px 30px;
+}
+
+#iphone1 img{
+	width: 40%;
+	float: left;
+	margin-left: 30px;
+}
+
+#iphone2 img{
+	width: 40%;
+	float: right;
+	margin-right: 30px; 
+}
+
+
+.logo{
+	padding-left: 20%;
+	padding-top: 80px;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	padding-bottom: 10px;
+}
+
+li a {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#menu{
+	padding-left: 20%;
+	padding-top: 50px
+}
+
+#homemenu a{
+	text-decoration: none;
+	font-weight: 900;
+}
+
+#homemenu a:hover{
+	text-decoration: underline;
+	font-weight: 300;
+}
+
+
+#descrizione_corsi{
+	padding-left: 20%;
+	padding-top: 60px;
+	width: 65%;
+	margin: 0px;
+}
+
+/* Secondo Blocco */
+#homelabadigital_1{
+	position: relative;
+	background-color: #ABE8DA;
+	width: 100%;
+	height: 1030px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#scritto{
+	height: 100%;
+	width: 100%;
+	padding-left: 10%;
+	padding-top: 25px;
+}
+
+#scritto p{
+	width: 78%;
+	color: #55ACAA;
+	margin: 0px 0px 15px 0px;
+}
+
+#annocorso{
+	position: relative;
+	float: left;
+	width: 25%;
+}
+
+#lezioni{
+	width: 75%;
+	position: relative;
+	float: right;
+	padding-top: 35px;
+}
+
+
+
+/* Terzo Blocco */
+#homelabadigital_2{
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	height: 1300px;
+}
+
+#scritto2{
+	height: 100%;
+	width: 100%;
+	padding-left: 10%;
+	padding-top: 25px;
+}
+
+#scritto2 p{
+	width: 78%;
+	color: #55ACAA;
+	margin: 0px 0px 15px 0px;
+}
+
+#annocorso2{
+	position: relative;
+	float: left;
+	width: 25%;
+}
+
+
+#lezioni2{
+	width: 75%;
+	position: relative;
+	float: right;
+	padding-top: 35px;
+}
+
+
+
+/* Footer */
+
+footer{
+	background-color: #E9EEEB;
+	height: 100%;
+}
+
+footer p{
+	color: #55ACAA;
+}
+
+
+#dati input{
+	display: block;
+	border: 0px;
+	height: 28px;
+	width: 190px;
+	margin-top: 15px;
+	margin-right: 0px;
+}
+
+
+::-webkit-input-placeholder {
+	font-family: Lato-Regular;
+	color: #55ACAA;
+	font-size: 18px;
+	text-align: right;
+	padding-right: 8px;
+}
+
+legend{
+	font-family: Lato;
+	font-size: 18px;
+	text-decoration: underline;
+	color: #55ACAA;
+	padding-top: 30px;
+}
+
+#privacy{
+	padding-left: 10%;
+	float: left;
+	position: relative;
+}
+
+#privacy p{
+	font-size: 12px;
+	padding-top: 25px;
+}
+
+#contatti{
+	text-align: right;
+	padding-right: 10%;
+	float: right;
+	position: relative;
+	width: 40%;
+}
+
+
+
+#contatti a{
+	text-decoration: none;
+	color: #55ACAA;
+}
+
+#contatti a:hover{
+	text-decoration: underline;
+}
+
+#contenutifooter{
+	display: inline-block;
+	width: 100%;
+}
+
+#preinscrizione{
+	float: left;
+	position: relative;
+	width: 40%;
+	padding-left: 10%;
+}
+
+#invio{
+	position: relative;
+	margin-top: -29px;
+	margin-left: 200px;
+}
+
+/* QUARTO BLOCCO */
+
+#homelabadigital_3{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background-color: #55ACAA;
+}
+
+#scritto3{
+	height: 100%;
+	width: 100%;
+	padding-left: 10%;
+	padding-top: 25px;
+}
+
+#annocorso3{
+	position: relative;
+	float: left;
+	width: 25%;
+}
+
+#strumentitesto{
+	position: relative;
+	float: right;
+	width: 75%;
+	padding-top: 38px;
+}
+
+#strumentitesto p{
+	margin: 0px;
+}
+
+#annocorso3 h1{
+	color: #fff;
+}
+
+#annocorso3 .linea{
+	border-bottom: 1px solid #fff;
+}
+
+
+
+/* media query */
+
+@media only screen and (max-width: 768px){
+
+	#homelabadigital{
+	height: 930px;
+	width: 100%;
+}
+
+	#presentazione{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	float: left;
+	background-color: #55ACAA;
+}
+
+#imghome{
+	display: none;
+}
+
+.logo{
+	padding-left: 10%;
+	padding-top: 40px;
+}
+
+#menu{
+	padding-left: 10%;
+}
+
+#descrizione_corsi{
+	padding-left: 10%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 75%;
+	margin: 0px;
+}
+
+#preinscrizione{
+	float: left;
+	position: relative;
+	width: 100%;
+	padding-left: 10%;
+}
+
+#contatti{
+	text-align: left;
+	padding-left: 10%;
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+#homelabadigital_1{
+	position: relative;
+	background-color: #ABE8DA;
+	width: 100%;
+	height: 1800px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#annocorso{
+	position: relative;
+	float: none;
+}
+
+
+#lezioni{
+	width: 75%;
+	float: none;
+	position: relative;
+	padding-top: 35px;
+}
+
+#scritto p{
+	width: 100%;
+	color: #55ACAA;
+	margin: 0px 0px 15px 0px;
+}
+
+/* Terzo Blocco */
+#homelabadigital_2{
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	height: 2320px;
+}
+
+
+#scritto2 p{
+	width: 100%;
+	color: #55ACAA;
+}
+
+#annocorso2{
+	position: relative;
+	float: none;
+	width: 50%;
+}
+
+
+#lezioni2{
+	width: 75%;
+	position: relative;
+	float: none;
+	padding-top: 35px;
+}
+
+#homelabadigital_3{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background-color: #55ACAA;
+}
+
+#annocorso3{
+	position: relative;
+	float: none;
+	width: 25%;
+}
+
+#strumentitesto{
+	position: relative;
+	float: none;
+	width: 75%;
+	padding-top: 35px;
+}
+
+}
+
+
+
+
+

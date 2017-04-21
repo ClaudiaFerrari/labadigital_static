@@ -1,0 +1,362 @@
+html body {
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+  padding: 0px; }
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+  color: #fff; }
+
+h1 {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 900;
+  color: #55ACAA;
+  line-height: 46px;
+  margin: 0px;
+  padding-top: 15px; }
+
+h2 {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 18px;
+  color: #55ACAA;
+  text-decoration: underline;
+  margin: 30px 0px 15px 0px; }
+
+.linea {
+  border-bottom: 1px solid #55ACAA;
+  width: 100px;
+  height: 1px; }
+
+a:hover {
+  text-decoration: none;
+  font-weight: 900; }
+
+/* Primo Blocco */
+#presentazione {
+  position: relative;
+  width: 50%;
+  float: left;
+  background-color: #55ACAA; }
+
+#imgpc {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/pc.png);
+  background-size: cover; }
+
+.logo {
+  padding-left: 20%;
+  padding-top: 80px; }
+
+ul {
+  list-style: none; }
+
+li {
+  padding-bottom: 10px; }
+
+li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300; }
+
+#menu {
+  padding-left: 20%;
+  padding-top: 50px; }
+
+#homemenu a {
+  text-decoration: none;
+  font-weight: 900; }
+
+#homemenu a:hover {
+  text-decoration: underline;
+  font-weight: 300; }
+
+#descrizione_laba {
+  padding-left: 20%;
+  padding-top: 60px;
+  width: 65%;
+  margin: 0px; }
+
+/* Secondo Blocco */
+#homelabadigital_1 {
+  background-color: #ABE8DA;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+#scritto {
+  padding-left: 10%;
+  padding-top: 25px; }
+
+#scritto p {
+  width: 90%;
+  color: #55ACAA; }
+
+.testo2 {
+  padding-bottom: 25px; }
+
+/* Terzo Blocco */
+#homelabadigital_2 {
+  padding: 0px;
+  margin: 0px;
+  height: 100%; }
+
+#scritto2 {
+  padding-left: 10%;
+  padding-top: 25px; }
+
+#scritto2 p {
+  color: #55ACAA;
+  width: 90%; }
+
+/* Footer */
+footer {
+  background-color: #E9EEEB;
+  height: 100%; }
+
+footer p {
+  color: #55ACAA; }
+
+#dati input {
+  display: block;
+  border: 0px;
+  height: 28px;
+  width: 190px;
+  margin-top: 15px;
+  margin-right: 0px; }
+
+::-webkit-input-placeholder {
+  font-family: Lato-Regular;
+  color: #55ACAA;
+  font-size: 18px;
+  text-align: right;
+  padding-right: 8px; }
+
+legend {
+  font-family: Lato;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #55ACAA;
+  padding-top: 30px; }
+
+#privacy {
+  padding-left: 10%;
+  float: left;
+  position: relative; }
+
+#privacy p {
+  font-size: 12px;
+  padding-top: 25px; }
+
+#contatti {
+  text-align: right;
+  padding-right: 10%;
+  float: right;
+  position: relative;
+  width: 40%; }
+
+#contatti a {
+  text-decoration: none;
+  color: #55ACAA; }
+
+#contatti a:hover {
+  text-decoration: underline; }
+
+#contenutifooter {
+  display: inline-block;
+  width: 100%; }
+
+#preinscrizione {
+  float: left;
+  position: relative;
+  width: 40%;
+  padding-left: 10%; }
+
+#invio {
+  position: relative;
+  margin-top: -29px;
+  margin-left: 200px; }
+
+body.page-contatti {
+  /* Primo Blocco */
+  /* Secondo Blocco */
+  /* Footer */
+  /* media query */ }
+  body.page-contatti p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: #55ACAA; }
+  body.page-contatti h1 {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 900;
+    color: #55ACAA;
+    line-height: 46px;
+    margin: 0px;
+    padding-top: 15px; }
+  body.page-contatti h2 {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 18px;
+    color: #55ACAA;
+    text-decoration: underline;
+    margin: 30px 0px 15px 0px; }
+  body.page-contatti a:hover {
+    text-decoration: none;
+    font-weight: 900; }
+  body.page-contatti #homelabadigital {
+    position: relative;
+    width: 100%;
+    height: 700px; }
+  body.page-contatti #presentazione {
+    background-color: white;
+    position: relative;
+    width: 50%;
+    float: left; }
+  body.page-contatti #contatti_mappa {
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    position: relative;
+    width: 50%;
+    height: 100%; }
+  body.page-contatti #rettangolo {
+    width: 100%;
+    height: 50%;
+    background-color: #55ACAA;
+    position: relative; }
+  body.page-contatti #mappa {
+    width: 100%;
+    height: 50%;
+    position: relative; }
+  body.page-contatti .logo {
+    padding-left: 20%;
+    padding-top: 80px; }
+  body.page-contatti ul {
+    list-style: none; }
+  body.page-contatti li {
+    padding-bottom: 10px; }
+  body.page-contatti li a {
+    color: #55ACAA;
+    font-size: 18px;
+    font-weight: 300; }
+  body.page-contatti #menu {
+    padding-left: 20%;
+    padding-top: 50px; }
+  body.page-contatti #homemenu a {
+    text-decoration: none;
+    font-weight: 900; }
+  body.page-contatti #homemenu a:hover {
+    text-decoration: underline;
+    font-weight: 300; }
+  body.page-contatti #contatti_laba {
+    padding-left: 20%;
+    padding-top: 60px;
+    width: 65%;
+    margin: 0px;
+    font-weight: 400; }
+  body.page-contatti #contatti_laba a {
+    text-decoration: none;
+    color: #55ACAA; }
+  body.page-contatti footer {
+    background-color: #E9EEEB;
+    height: 100%; }
+  body.page-contatti footer p {
+    color: #55ACAA; }
+  body.page-contatti #dati input {
+    display: block;
+    border: 0px;
+    height: 28px;
+    width: 190px;
+    margin-top: 15px;
+    margin-right: 0px; }
+  body.page-contatti ::-webkit-input-placeholder {
+    font-family: Lato-Regular;
+    color: #55ACAA;
+    font-size: 18px;
+    text-align: right;
+    padding-right: 8px; }
+  body.page-contatti legend {
+    font-family: Lato;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #55ACAA;
+    padding-top: 30px; }
+  body.page-contatti #privacy {
+    padding-left: 10%;
+    float: left;
+    position: relative; }
+  body.page-contatti #privacy p {
+    font-size: 12px;
+    padding-top: 25px; }
+  body.page-contatti #contatti {
+    text-align: right;
+    padding-right: 10%;
+    float: right;
+    position: relative;
+    width: 40%; }
+  body.page-contatti #contatti a {
+    text-decoration: none;
+    color: #55ACAA; }
+  body.page-contatti #contatti a:hover {
+    text-decoration: underline; }
+  body.page-contatti #contenutifooter {
+    display: inline-block;
+    width: 100%; }
+  body.page-contatti #preinscrizione {
+    float: left;
+    position: relative;
+    width: 40%;
+    padding-left: 10%; }
+  body.page-contatti #invio {
+    position: relative;
+    margin-top: -29px;
+    margin-left: 200px; }
+  @media only screen and (max-width: 768px) {
+    body.page-contatti #presentazione {
+      position: relative;
+      width: 100%;
+      float: left;
+      background-color: #55ACAA; }
+    body.page-contatti #imgpc {
+      display: none; }
+    body.page-contatti .logo {
+      padding-left: 10%;
+      padding-top: 40px; }
+    body.page-contatti #menu {
+      padding-left: 10%; }
+    body.page-contatti #descrizione_laba {
+      padding-left: 10%;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      width: 75%;
+      margin: 0px; }
+    body.page-contatti #preinscrizione {
+      float: left;
+      position: relative;
+      width: 100%;
+      padding-left: 10%; }
+    body.page-contatti #contatti {
+      text-align: left;
+      padding-left: 10%;
+      float: left;
+      position: relative;
+      width: 100%; }
+    body.page-contatti #contatti {
+      text-align: left;
+      padding-left: 10%;
+      float: left;
+      position: relative;
+      width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */

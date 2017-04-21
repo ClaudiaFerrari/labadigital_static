@@ -1,0 +1,39 @@
+
+@media only screen and (max-width: 768px){
+
+  #presentazione{
+    position: relative;
+    width: 100%;
+    float: left;
+    background-color: #55ACAA;
+  }
+
+  #imgpc{
+    display: none;
+  }
+
+  .logo{
+    padding-left: 10%;
+    padding-top: 40px;
+  }
+
+  #menu{
+    padding-left: 10%;
+  }
+
+  #descrizione_laba{
+    padding-left: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 75%;
+    margin: 0px;
+  }
+
+  #preinscrizione{
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-left: 10%;
+  }
+
+}
